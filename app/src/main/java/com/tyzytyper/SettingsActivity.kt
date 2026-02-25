@@ -38,7 +38,7 @@ import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 
 enum class AppScreen(val title: String) {
-    SettingsList("TyZy Typer Settings"),
+    SettingsList("Typer Settings"),
     AiProvidersConfig("AI Providers"),
     PromptConfig("Default Pre-prompt"),
     ThemeConfig("App Theme"),
@@ -103,7 +103,7 @@ class SettingsActivity : ComponentActivity() {
                                     if (currentScreen == AppScreen.SettingsList) {
                                         Image(
                                             painter = painterResource(id = if (isDark) R.drawable.typer_logo_dark_theme else R.drawable.typer_logo_light_theme),
-                                            contentDescription = "TyZy Typer Settings",
+                                            contentDescription = "Typer Settings",
                                             modifier = Modifier.height(256.dp)
                                         )
                                     } else {

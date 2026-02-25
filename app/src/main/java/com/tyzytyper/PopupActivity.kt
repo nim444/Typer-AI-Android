@@ -215,7 +215,7 @@ class PopupActivity : ComponentActivity() {
                                         Button(
                                             onClick = {
                                                 val clipboard = context.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
-                                                clipboard.setPrimaryClip(ClipData.newPlainText("TyZy Typer", result))
+                                                clipboard.setPrimaryClip(ClipData.newPlainText("Typer", result))
                                                 finish()
                                             },
                                             modifier = Modifier.fillMaxWidth()

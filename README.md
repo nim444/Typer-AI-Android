@@ -4,16 +4,16 @@
 ![Google Gemini](https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=googlebard&logoColor=white)
 ![xAI Grok](https://img.shields.io/badge/xAI%20Grok-000000?style=for-the-badge&logo=x&logoColor=white)
 
-[![Unit Tests](https://github.com/nim444/TyZy_Typer/actions/workflows/build.yml/badge.svg)](https://github.com/nim444/TyZy_Typer/actions/workflows/build.yml)
+[![Unit Tests](https://github.com/Soluzy/Typer-AI-Android/actions/workflows/build.yml/badge.svg)](https://github.com/Soluzy/Typer-AI-Android/actions/workflows/build.yml)
 
 ____
 <br>
 
-# TyZy Typer
+# Typer-AI
 
 An AI-powered Android typing assistant that fixes grammar and adjusts tone — accessible instantly from your Quick Settings tile or a persistent floating bubble.
 
-You're in any app, you have a messy draft. Swipe down, tap the **TyZy Typer** tile, type or speak your text, pick a tone, and get a clean rewrite — then tap **Copy & Close** to paste it wherever you were. No overlay permissions needed. No switching apps. Just a floating popup over your current screen.
+You're in any app, you have a messy draft. Swipe down, tap the **Typer** tile, type or speak your text, pick a tone, and get a clean rewrite — then tap **Copy & Close** to paste it wherever you were. No overlay permissions needed. No switching apps. Just a floating popup over your current screen.
 
 ___
 
@@ -41,7 +41,7 @@ ___
 #### Install the APK
 1. Go to the [Actions tab](../../actions) on GitHub.
 2. Open the latest successful **Build Android APK** run.
-3. Download the `TyZy-Typer-APK` artifact and unzip it.
+3. Download the `Typer-APK` artifact and unzip it.
 4. Transfer `app-debug.apk` to your Android device.
 5. Enable **Install from unknown sources** in your device settings and install.
 </details>
@@ -49,11 +49,11 @@ ___
 <details>
   <summary>3. How To Use</summary>
 
-1. **Open the TyZy Typer app** from your app drawer.
+1. **Open the Typer app** from your app drawer.
 2. **Configure your AI Providers**: Enter your Gemini and/or Grok API keys and select your preferred models from the dropdowns. Choose your Default Provider.
 3. Customize your **App Theme** and toggle the **Floating Button** if you want a permanent on-screen shortcut.
-4. Alternatively, add the **TyZy Typer** Quick Settings tile to your notification shade.
-5. From any other app, drop down your notifications and tap the **TyZy Typer** tile or the floating bubble.
+4. Alternatively, add the **Typer** Quick Settings tile to your notification shade.
+5. From any other app, drop down your notifications and tap the **Typer** tile or the floating bubble.
 6. A translucent popup will appear. Type your draft **or** tap the **mic** to speak it.
 7. Tap **Fix Grammar**.
 8. Review the result, then tap **Copy & Close** to paste into any app.
@@ -85,7 +85,7 @@ ___
 | CI | GitHub Actions → debug APK artifact |
 
 ```text
-TyZy_Typer/
+Typer-AI-Android/
 ├── app/src/main/
 │   ├── java/com/tyzytyper/
 │   │   ├── SettingsActivity.kt    # Main Settings UI (AI Providers, Theme)

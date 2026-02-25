@@ -94,7 +94,7 @@ class FloatingButtonService : Service(), LifecycleOwner, SavedStateRegistryOwner
                     ) {
                         Image(
                             painter = painterResource(id = R.drawable.ic_typer_transparent),
-                            contentDescription = "Open TyZy Typer",
+                            contentDescription = "Open Typer",
                             modifier = Modifier.size(56.dp)
                         )
                     }
