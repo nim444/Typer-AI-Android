@@ -1,19 +1,22 @@
-![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=android&logoColor=white)
-![Google Gemini](https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=googlebard&logoColor=white)
-![xAI Grok](https://img.shields.io/badge/xAI%20Grok-000000?style=for-the-badge&logo=x&logoColor=white)
 
 [![Unit Tests](https://github.com/Soluzy/Typer-AI-Android/actions/workflows/build.yml/badge.svg)](https://github.com/Soluzy/Typer-AI-Android/actions/workflows/build.yml)
-
 ____
 <br>
 
-# Typer-AI
+
+![Banner](assets/banner.png)
+
+![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 
 An AI-powered Android typing assistant that fixes grammar and adjusts tone — accessible instantly from your Quick Settings tile or a persistent floating bubble.
 
 You're in any app, you have a messy draft. Swipe down, tap the **Typer** tile, type or speak your text, pick a tone, and get a clean rewrite — then tap **Copy & Close** to paste it wherever you were. No overlay permissions needed. No switching apps. Just a floating popup over your current screen.
+
+
+
+
+
 
 ---
 
