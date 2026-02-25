@@ -1,5 +1,5 @@
 
-[![Unit Tests](https://github.com/Soluzy/Typer-AI-Android/actions/workflows/build.yml/badge.svg)](https://github.com/Soluzy/Typer-AI-Android/actions/workflows/build.yml)
+[![Unit Tests](https://github.com/nim444/Typer-AI-Android/actions/workflows/build.yml/badge.svg)](https://github.com/nim444/Typer-AI-Android/actions/workflows/build.yml)
 ____
 <br>
 
@@ -13,7 +13,6 @@ An AI-powered Android typing assistant that fixes grammar and adjusts tone — a
 
 You're in any app, you have a messy draft. Swipe down, tap the **Typer** tile, type or speak your text, pick a tone, and get a clean rewrite — then tap **Copy & Close** to paste it wherever you were. No overlay permissions needed. No switching apps. Just a floating popup over your current screen.
 
-![Demo](assets/demo.gif)
 
 
 
