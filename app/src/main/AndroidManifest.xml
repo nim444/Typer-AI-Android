@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <application android:allowBackup="true" android:icon="@drawable/ic_typer_transparent" android:label="TyZy Typer" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter> <action android:name="android.intent.action.MAIN" /> <category android:name="android.intent.category.LAUNCHER" /> </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".PopupActivity"
+            android:exported="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:configChanges="keyboard|keyboardHidden|screenSize|orientation"
+            android:taskAffinity=""
+            android:excludeFromRecents="true"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+        </activity>
+        <service android:name=".TyperTileService" android:exported="true" android:label="TyZy Typer" android:icon="@drawable/ic_tile" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter> <action android:name="android.service.quicksettings.action.QS_TILE" /> </intent-filter>
+        </service>
+        <service android:name=".FloatingButtonService" android:exported="false" />
+    </application>
+</manifest>
