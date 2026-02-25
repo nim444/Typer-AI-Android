@@ -30,7 +30,7 @@ See the [LICENSE](LICENSE) file for the full legal text.
 ___
 
 <br>
-<details>
+<details Open>
   <summary>1. Features</summary>
 
 - **Quick Settings Tile & Floating Button** — instant access to the AI from anywhere on Android
@@ -43,7 +43,7 @@ ___
 - **Persistent Secure Storage** — Local DataStore preferences save everything safely on-device
 </details>
 
-<details>
+<details Open>
   <summary>2. Setup & Installation</summary>
 
 #### Get an API Key (Gemini or Grok)
@@ -58,7 +58,7 @@ ___
 5. Enable **Install from unknown sources** in your device settings and install.
 </details>
 
-<details>
+<details Open>
   <summary>3. How To Use</summary>
 
 1. **Open the Typer app** from your app drawer.
@@ -82,7 +82,7 @@ ___
 *Always verify up-to-date quotas with your respective provider console.*
 </details>
 
-<details>
+<details Open>
   <summary>5. Tech Stack & Project Structure</summary>
 
 | Component | Technology |
