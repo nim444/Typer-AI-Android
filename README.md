@@ -15,6 +15,16 @@ An AI-powered Android typing assistant that fixes grammar and adjusts tone — a
 
 You're in any app, you have a messy draft. Swipe down, tap the **Typer** tile, type or speak your text, pick a tone, and get a clean rewrite — then tap **Copy & Close** to paste it wherever you were. No overlay permissions needed. No switching apps. Just a floating popup over your current screen.
 
+---
+
+### License
+
+**PolyForm Noncommercial License 1.0.0**
+
+This software is licensed for non-commercial use only. You may use this project for personal, academic, and non-profit purposes. **Commercial use, including but not limited to selling this software or using it as part of a paid service, is strictly prohibited.**
+
+See the [LICENSE](LICENSE) file for the full legal text.
+
 ___
 
 <br>
